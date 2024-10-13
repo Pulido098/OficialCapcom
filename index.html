@@ -7,9 +7,11 @@
     <title>Rockstar Games</title>
 </head>
 <body>
-    <!-- Navigation Bar -->
     <nav class="navbar">
-        <div class="logo">Rockstar Games</div>
+        <div class="logo-container">
+            <img src="https://cdn.worldvectorlogo.com/logos/rockstar-games.svg" alt="Rockstar Logo" class="logo-img">
+            <div class="logoText">Rockstar Games</div>
+        </div>
         <ul class="nav-links">
             <li><a href="#">Inicio</a></li>
             <li><a href="#">Juegos</a></li>
@@ -20,16 +22,17 @@
 
     <!-- Image Slider -->
     <div class="slider-box">
+        <input type="radio" name="slider" id="slide1" checked>
+        <input type="radio" name="slider" id="slide2">
+        <input type="radio" name="slider" id="slide3">
         <div class="slider">
-            <!-- Slide 1 -->
             <div class="slide">
                 <img src="https://images7.alphacoders.com/749/749807.png" alt="Game Image 1">
                 <div class="caption">
                     <h2>Red Dead Redemption 2</h2>
-                    <p>Experimenta una aventura epica</p>
+                    <p>Experimenta una aventura épica</p>
                 </div>
             </div>
-            <!-- Slide 2 -->
             <div class="slide">
                 <img src="https://images6.alphacoders.com/515/thumb-1920-515390.jpg" alt="Game Image 2">
                 <div class="caption">
@@ -37,7 +40,6 @@
                     <p>Entra al mundo del caos y el crimen</p>
                 </div>
             </div>
-            <!-- Slide 3 -->
             <div class="slide">
                 <img src="https://picfiles.alphacoders.com/466/thumb-1920-466812.jpg" alt="Game Image 3">
                 <div class="caption">
@@ -46,19 +48,33 @@
                 </div>
             </div>
         </div>
-
-        <!-- Next/Previous Controls -->
-        <div class="controls">
-            <span id="prev">&#10094;</span>
-            <span id="next">&#10095;</span>
+        <div class="navigation-dots">
+            <label for="slide1" class="nav-dot"></label>
+            <label for="slide2" class="nav-dot"></label>
+            <label for="slide3" class="nav-dot"></label>
         </div>
     </div>
 
-    <!-- Footer -->
+    <!-- Sección Misión, Visión y Quiénes Somos (sin ser responsivo) -->
+    <section class="about-section">
+        <div class="about-container">
+            <div class="about-card mission">
+                <h3>Misión</h3>
+                <p>Nuestra misión es crear experiencias de entretenimiento interactivas de la más alta calidad, ofreciendo mundos inmersivos donde los jugadores puedan explorar su creatividad y alcanzar nuevas aventuras.</p>
+            </div>
+            <div class="about-card vision">
+                <h3>Visión</h3>
+                <p>Ser líderes en la industria del entretenimiento interactivo, siempre a la vanguardia de la tecnología y la innovación, desarrollando juegos que desafíen los límites y conecten a las personas alrededor del mundo.</p>
+            </div>
+            <div class="about-card about-us">
+                <h3>Quiénes Somos</h3>
+                <p>Somos Rockstar Games, una empresa apasionada por el desarrollo de videojuegos. Con un equipo global dedicado y comprometido, estamos enfocados en ofrecer títulos que definan una generación, como Grand Theft Auto y Red Dead Redemption.</p>
+            </div>
+        </div>
+    </section>
+
     <footer>
         <p>&copy; 2024 Rockstar Games</p>
     </footer>
-
-    <script src="rockstar.js"></script>
 </body>
 </html>
