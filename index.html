@@ -4,54 +4,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="capcom.css">
-    <title>Capcom</title>
-
-
+    <title>Rockstar Games</title>
 </head>
 <body>
-<h2 class="Titulo"> Slider automatico </h2>
-    <div class="slider-box">
-      <ul>
-            <li>
-                <img src="https://cdn2.steamgriddb.com/hero_thumb/14f2ebeab937ca128186e7ba876faef9.jpg">
-                  <div class="text">
-                        <h2>Imagen 1</h2>
-                        <p>
-                          aca texto <br />hfhfjf
-                      </p>
-                    </div>
-            </li>
-            <li>
-                <img src="https://gepig.com/game_cover_bg_1190w/248.jpg">
-                    <div class="text">
-                      <h2>Imagen 1</h2>
-                      <p>
-                          aca texto <br />hfhfjf
-                    </p>
-                  </div>
-          </li>
-          <li>
-            <img src="">
-              <div class="text">
-                  <h2>Imagen 1</h2>
-                  <p>
-                      aca texto <br />hfhfjf
-                </p>
-              </div>
-      </li>
-      <li>
-        <img src="">
-          <div class="text">
-              <h2>Imagen 1</h2>
-              <p>
-                  aca texto <br />hfhfjf
-            </p>
-          </div>
-    </li>
-
-        
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="https://cdn.worldvectorlogo.com/logos/rockstar-games.svg" alt="Rockstar Logo" class="logo-img">
+            <div class="logoText">Rockstar Games</div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Juegos</a></li>
+            <li><a href="#">Noticias</a></li>
+            <li><a href="#">Soporte</a></li>
         </ul>
+    </nav>
+
+    <!-- Image Slider -->
+    <div class="slider-box">
+        <input type="radio" name="slider" id="slide1" checked>
+        <input type="radio" name="slider" id="slide2">
+        <input type="radio" name="slider" id="slide3">
+        <div class="slider">
+            <div class="slide">
+                <img src="https://images7.alphacoders.com/749/749807.png" alt="Game Image 1">
+                <div class="caption">
+                    <h2>Red Dead Redemption 2</h2>
+                    <p>Experimenta una aventura épica</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="https://images6.alphacoders.com/515/thumb-1920-515390.jpg" alt="Game Image 2">
+                <div class="caption">
+                    <h2>Grand Theft Auto V</h2>
+                    <p>Entra al mundo del caos y el crimen</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="https://picfiles.alphacoders.com/466/thumb-1920-466812.jpg" alt="Game Image 3">
+                <div class="caption">
+                    <h2>Max Payne 3</h2>
+                    <p>Action-packed thriller</p>
+                </div>
+            </div>
+        </div>
+        <div class="navigation-dots">
+            <label for="slide1" class="nav-dot"></label>
+            <label for="slide2" class="nav-dot"></label>
+            <label for="slide3" class="nav-dot"></label>
+        </div>
     </div>
 
+    <!-- Sección Misión, Visión y Quiénes Somos -->
+    <section class="about-section">
+        <div class="about-container">
+            <div class="about-card mission">
+                <h3>Misión</h3>
+                <p>Nuestra misión es crear experiencias de entretenimiento interactivas de la más alta calidad, ofreciendo mundos inmersivos donde los jugadores puedan explorar su creatividad y alcanzar nuevas aventuras.</p>
+            </div>
+            <div class="about-card vision">
+                <h3>Visión</h3>
+                <p>Ser líderes en la industria del entretenimiento interactivo, siempre a la vanguardia de la tecnología y la innovación, desarrollando juegos que desafíen los límites y conecten a las personas alrededor del mundo.</p>
+            </div>
+            <div class="about-card about-us">
+                <h3>Quiénes Somos</h3>
+                <p>Somos Rockstar Games, una empresa apasionada por el desarrollo de videojuegos. Con un equipo global dedicado y comprometido, estamos enfocados en ofrecer títulos que definan una generación, como Grand Theft Auto y Red Dead Redemption.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Productos -->
+    <section class="products-section">
+        <h2>Productos Destacados</h2>
+        <div class="products-container">
+            <div class="product-card">
+                <iframe width="370" height="300" src="https://www.youtube.com/embed/QdBZY2fkU-0?si=UpNAXMITw-EAzRDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <!-- <img src="https://via.placeholder.com/150" alt="Producto 1"> -->
+                <h3>GTA VI</h3>
+                <p>Descripción</p>
+            </div>
+            <div class="product-card">
+                <iframe width="370" height="300" src="https://www.youtube.com/embed/QkkoHAzjnUs?si=f0gTs7EN9p4uiDW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <!-- <img src="https://via.placeholder.com/150" alt="Producto 2"> -->
+                <h3>GTA V</h3>
+                <p>Descripción</p>
+            </div>
+            <div class="product-card">
+                <iframe width="370" height="300" src="https://www.youtube.com/embed/-8MN89fIaJ8?si=9hxdMxMBjlo3Fqld" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <!-- <img src="https://via.placeholder.com/150" alt="Producto 3"> -->
+                <h3>RDR 1</h3>
+                <p>Descripción</p>
+            </div>
+            <div class="product-card">
+                <iframe width="370" height="300" src="https://www.youtube.com/embed/gmA6MrX81z4?si=QdIQYC5lWaWx0uw6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <!-- <img src="https://via.placeholder.com/150" alt="Producto 4"> -->
+                <h3>RDR 2</h3>
+                <p>Descripción</p>
+            </div>
+            <div class="product-card">
+                <iframe width="370" height="300" src="https://www.youtube.com/embed/4Uc_dbG7MR8?si=YLExHUMnwCBnoOis" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <!-- <img src="https://via.placeholder.com/150" alt="Producto 5"> -->
+                <h3>MAX PAYNE 3</h3>
+                <p>Descripción</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Rockstar Games</p>
+    </footer>
 </body>
 </html>
