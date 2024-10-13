@@ -1,3 +1,4 @@
+/* Global Styles */
 * {
    margin: 0;
    padding: 0;
@@ -53,6 +54,7 @@ body {
    color: #f2a900;
 }
 
+/* Slider Styles */
 .slider-box {
    position: relative;
    width: 100%;
@@ -148,23 +150,24 @@ input[type="radio"] {
    background-color: #f2a900;
 }
 
+/* About Section (No Responsive) */
 .about-section {
    padding: 50px;
    background-color: #1a1a1a;
 }
 
 .about-container {
-   width: 90%; 
+   width: 90%; /* Fixed width */
    margin: 0 auto;
    display: flex;
-   justify-content: space-between; 
+   justify-content: space-between; /* Separate the cards */
 }
 
 .about-card {
    background-color: #252525;
    padding: 20px;
    border-radius: 8px;
-   width: 30%; 
+   width: 30%; /* Each card takes 30% of the width */
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -179,6 +182,7 @@ input[type="radio"] {
    color: #ccc;
 }
 
+/* Footer */
 footer {
    text-align: center;
    padding: 20px;
