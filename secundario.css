@@ -240,7 +240,7 @@ footer {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.Titulo_Gta4, .Titulo_Gta5 , .Titulo_Red{
+.Titulo_Gta4, .Titulo_Gta5 , .Titulo_Red ,.Titulo_Red{
     display: flex;
     flex-direction: column;
     align-items: center;
