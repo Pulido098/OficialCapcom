@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="secundario.css">
+    <title>Rockstar Games</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="https://cdn.worldvectorlogo.com/logos/rockstar-games.svg" alt="Rockstar Logo" class="logo-img">
+            <div class="logoText">Rockstar Games</div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="juegos.html">Juegos</a></li>
+            <li><a href="#">Noticias</a></li>
+            <li><a href="soporte.html">Soporte</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sección Misión, Visión y Quiénes Somos -->
+
+    <section class="content-wrapper">
+
+                <!-- Formulario debajo del texto de GTA IV -->
+                <div class="form-container">
+                    <h3>Deja tu comentario</h3>
+                    <form action="procesar_formulario.php" method="POST">
+                        <label for="nombre">Nombre:</label><br>
+                        <input type="text" id="nombre" name="nombre" required><br><br>
+
+                        <label for="correo">Correo electrónico:</label><br>
+                        <input type="email" id="correo" name="correo" required><br><br>
+
+                        <label for="comentario">Comentario:</label><br>
+                        <textarea id="comentario" name="comentario" rows="4" cols="50" required></textarea><br><br>
+
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Rockstar Games</p>
+    </footer>
+</body>
+</html>
